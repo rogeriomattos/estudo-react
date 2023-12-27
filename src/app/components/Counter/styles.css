@@ -1,0 +1,16 @@
+#container {
+    padding: 16px;
+}
+
+#container button {
+    padding: 20px;
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    display: block;
+}
+
+#container div {
+    font-size: 24px;
+    text-align: center;
+}
