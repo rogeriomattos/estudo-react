@@ -1,0 +1,30 @@
+#gallery  {
+    max-width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem;
+}
+#gallery > div {
+    position: relative;
+    width: 50%;
+    display: flex;
+}
+
+#gallery > div:first-child iframe {
+    border-radius: .75rem;
+}
+
+#gallery > div:last-child {
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#gallery > div > img {
+    width: calc(50% - .5rem);
+    height: calc(50% - .5rem);
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    display: block;
+    border-radius: .75rem;
+}
